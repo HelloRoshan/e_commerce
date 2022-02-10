@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import {Product} from './Product/Product';
+import { Row, Col } from 'react-bootstrap';
+import { Product } from './Product/Product';
 
 export default class Products extends Component {
     constructor(props) {

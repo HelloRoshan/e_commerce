@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Logo from './Logo/Logo';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import { Logo } from '../';
+import { Badge, Container, Navbar, Nav } from 'react-bootstrap';
+import { BsFillCartFill } from "react-icons/bs";
 
 export default function MainMenu() {
   return (
@@ -10,6 +10,12 @@ export default function MainMenu() {
         <Navbar.Brand href="#home">
           <Logo />
         </Navbar.Brand>
+        <Nav>
+          <Nav.Link href="#/">
+            <BsFillCartFill size={24} />
+            <Badge pill bg="primary" style={{fontSize: '.65rem'}}>2</Badge>
+          </Nav.Link>
+        </Nav>
       </Container>
     </Navbar>
   );

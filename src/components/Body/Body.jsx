@@ -1,9 +1,6 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import ProductCategories from '../ProductCategories/ProductCategories';
-import Products from '../Products/Products';
+import { Row, Col, Container } from 'react-bootstrap';
+import { Products, ProductCategories } from '../';
 
 export const Body = () => {
   return (
