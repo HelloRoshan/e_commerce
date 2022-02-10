@@ -1,12 +1,12 @@
 import React from 'react';
-import Products from './components/Products/Products';
 import MainMenu from './components/MainMenu/MainMenu';
+import { Body } from './components/Body/Body';
 
 const App = () => {
   return (
     <React.Fragment>
       <MainMenu />
-      <Products />
+      <Body />
     </React.Fragment>
   );
 };

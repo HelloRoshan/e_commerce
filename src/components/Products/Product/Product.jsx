@@ -12,7 +12,7 @@ export const Product = ({ product }) => {
         <Card.Text className="product-card-description">
           {product.description}
         </Card.Text>
-        <Card.Text>
+        <Card.Text className="product-card-price">
           ${product.price}
         </Card.Text>
         <AddToCartButton />
