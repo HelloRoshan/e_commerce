@@ -22,7 +22,9 @@ export default class ProductCategories extends Component {
     return <div>
       {
         this.state.productCategories.map(category => (
-          <a href='#/' key={category}>{category}</a>
+          <div>
+            <a href='#/' key={category}>{category}</a>
+          </div>
         ))
       }
     </div>;
